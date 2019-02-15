@@ -91,3 +91,8 @@ bash c.sh -unv
 卸载 rinetdbbr
 bash c.sh -unb
 ```
+
+## 文件目录权限设置
+```
+chown www-data:www-data -R /www/*
+```
