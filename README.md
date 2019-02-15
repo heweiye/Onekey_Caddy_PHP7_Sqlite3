@@ -94,5 +94,6 @@ bash c.sh -unb
 
 ## 文件目录权限设置
 ```
+chmod -R 755 /www/*
 chown www-data:www-data -R /www/*
 ```
