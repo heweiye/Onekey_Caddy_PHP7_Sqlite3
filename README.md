@@ -33,9 +33,13 @@
 wget -N --no-check-certificate https://raw.githubusercontent.com/dylanbai8/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh
 ```
 
-## Caddyfile文件
+## Caddy+PHP7+Sqlite3 环境
 ```
-/etc/dylanbai8/caddy/Caddyfile
+启动：systemctl start caddy 
+停止：systemctl stop caddy 
+重启：systemctl restart caddy 
+网站根目录：/www 
+Caddyfile文件: /etc/dylanbai8/caddy/Caddyfile
 ```
 ## 一键安装 typecho 博客
 ```
