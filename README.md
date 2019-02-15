@@ -33,6 +33,10 @@
 wget -N --no-check-certificate https://raw.githubusercontent.com/dylanbai8/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh
 ```
 
+## Caddyfile文件
+```
+/etc/dylanbai8/caddy/Caddyfile
+```
 ## 一键安装 typecho 博客
 ```
 bash c.sh -t
